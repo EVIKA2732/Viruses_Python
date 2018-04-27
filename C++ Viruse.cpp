@@ -1,5 +1,10 @@
 
-#include# include# include# include# include# include
+#include <>
+#include <>
+#include <>
+#include <>
+#include <>
+#include <>
 using namespace std;
 
 int random, Freq, Dur, X, Y;
@@ -110,6 +115,4 @@ DWORD WINAPI DestroyWindows(LPVOID) {
   }
 }
 
-/*This is Not A proper Virus But it is An Annoying One. Still I'll Explain the Working
-
-the blank include lines are*/
+/*This is Not A proper Virus But it is An Annoying One. Still I'll Explain the Working*/
