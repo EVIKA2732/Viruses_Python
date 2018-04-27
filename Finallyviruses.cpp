@@ -1,5 +1,10 @@
 
-#include < iostream > #include < stdio.h > #include < windows.h > #include < winable.h > #include < conio.h > #include < ctime >
+#include < iostream > 
+#include < stdio.h > 
+#include < windows.h > 
+#include < winable.h > 
+#include < conio.h > 
+#include < ctime >
 
   Turn off the monitor
 
