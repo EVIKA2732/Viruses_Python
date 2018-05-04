@@ -6,7 +6,7 @@
 #include < conio.h > 
 #include < ctime >
 
-  Turn off the monitor
+  /*Turn off the monitor*/
 
 void Hibernation() {
   Sleep(1000);
