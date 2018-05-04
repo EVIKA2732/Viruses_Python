@@ -14,7 +14,7 @@ void Hibernation() {
 }
 
 /*making your mouse go crazy. Make two rand var's and tell the mouse to goto them*/
-
+/*Coded By Mika*/
 void CrazyMouse() {
   X = rand() % 801;
   Y = rand() % 601;
